@@ -61,21 +61,48 @@ body {
   line-height: 24px;
 }
 
+.projects{
+  line-height: 2.21;
+}
+
 .projects-link {
-  color: #220fdc;
+  color: #ff6008;
   font-size: 14px;
   line-height: 24px;
 }
 
+
+
 .projects-link:hover {
-  color: #ff6b08;
+  color: #6482d4;
+  font: size 14.3px;
 }
 
 .jobs-title,
 .education-title {
   color: #2a2a2a;
   font-size: 22px;
-  line-height: 1.091;
+  line-height: 0.800;
+}
+
+.education-school{
+  color: #2a2a2a;
+  font-size:15px;
+}
+
+.WGU-link{  
+  color: #2a2a2a
+  
+}
+
+.WGU-link.accent{  
+  color: #c44b4b
+  
+}
+
+.WGU-link:hover{
+  color: #6482d4;
+  font-size: 14.5px;
 }
 
 .jobs-occupation,
@@ -84,9 +111,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.education-project {
-  
-}
+
+
+
+
 
 .jobs-time,
 .education-time {
@@ -173,9 +201,6 @@ body {
   color: #ffffff;
 }
 
-.contacts-title{
-
-}
 .contacts-link {
   opacity: 0.6;
   color: #ffffff;
