@@ -129,6 +129,12 @@ body {
   color: #ff6b08;
 }
 
+.temp-construction {
+  font-size: larger;
+  color: #ff0000;
+
+}
+
 /* ========= left-side ========= */
 
 .left-side {
