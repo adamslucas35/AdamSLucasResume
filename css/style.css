@@ -3,6 +3,9 @@ body {
   padding: 40px;
   font-family: 'Montserrat', sans-serif;
 }
+.my-resume-link {
+  font-size: 48px;
+}
 
 .container {
   display: flex;
@@ -130,7 +133,7 @@ body {
 }
 
 .temp-construction {
-  font-size: larger;
+  font-size: 36px;
   color: #ff0000;
 
 }
