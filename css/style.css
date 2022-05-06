@@ -1,8 +1,9 @@
 body {
   background-color: #f5f7fa;
   padding: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .my-resume-link {
   font-size: 48px;
 }
@@ -64,7 +65,7 @@ body {
   line-height: 24px;
 }
 
-.projects{
+.projects {
   line-height: 2.21;
 }
 
@@ -88,18 +89,17 @@ body {
   line-height: 0.800;
 }
 
-.education-school{
+.education-school {
   color: #2a2a2a;
-  font-size:15px;
+  font-size: 15px;
 }
 
-.WGU-link{  
+.WGU-link {
   color: #2a2a2a
-  
 }
 
 
-.WGU-link:hover{
+.WGU-link:hover {
   color: #6482d4;
   font-size: 14.5px;
 }
@@ -111,15 +111,16 @@ body {
   line-height: 1.5;
 }
 
-
-
-
-
 .jobs-time,
 .education-time {
   color: #828282;
   font-size: 12px;
   line-height: 2;
+}
+
+.jobs-occupation em {
+  color: #595959;
+  font-style: normal;
 }
 
 .experience-item {
@@ -145,11 +146,12 @@ body {
 .linkedin-link {
   font-size: 48px;
 }
+
 /* ========= left-side ========= */
 
 .left-side {
   width: 370px;
-  background-color: #1e2939;
+  background-color: #2a446b;
   color: #fff;
 }
 
@@ -158,14 +160,27 @@ body {
   line-height: 1.091;
 }
 
-.skills-item {
+.skills-items {
   font-size: 14px;
   line-height: 1.714;
 }
 
+.transferable {
+  font-size: 12px;
+
+}
+
 .skills-list {
-  list-style: none;
+  list-style-type: orange;
   padding-left: 0;
+}
+
+li.skills-item-tech {
+  list-style: none;
+}
+
+li.skills-item-human {
+  list-style: none;
 }
 
 .skills-item::before {
@@ -235,11 +250,11 @@ body {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
-  box-shadow: 0px 0px 13px 1px rgba(255,107,8,0.4);
+  box-shadow: 0px 0px 13px 1px rgba(255, 107, 8, 0.4);
 }
 
 .widget-link:hover {
-  box-shadow: 0px 6px 32px 1px rgba(255,107,8,0.92);
+  box-shadow: 0px 6px 32px 1px rgba(255, 107, 8, 0.92);
 }
 
 .widget:hover {
